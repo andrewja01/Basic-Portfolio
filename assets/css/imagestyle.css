@@ -1,15 +1,22 @@
 img {
-    float:left;
+    float: left;
     width: 200px;
     height: 150px; 
     padding: 10px; 
 }
 
-div.gallery {
+.gallery {
     margin: 5px;
-    border: 1px solid #ccc;
     float: left;
-    width: 200px;
-    height: 150px;
-    padding: 10px;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 10px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+
 }
